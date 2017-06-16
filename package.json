@@ -1,6 +1,6 @@
 {
   "name": "soxlib",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "sox client",
   "license": "MIT",
   "repository": "cpslab/soxlib",
