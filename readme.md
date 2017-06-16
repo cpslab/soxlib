@@ -1,4 +1,4 @@
-# soxlib [![Build Status](https://travis-ci.org/akameco/soxlib.svg?branch=master)](https://travis-ci.org/akameco/soxlib)
+# soxlib [![Build Status](https://travis-ci.org/cpslab/soxlib.svg?branch=master)](https://travis-ci.org/cpslab/soxlib)
 
 > sox client
 
@@ -85,4 +85,4 @@ $ npm start
 
 ## License
 
-MIT © [akameco](http://akameco.github.io)
+MIT © [cpslab](http://cpslab.github.io)
