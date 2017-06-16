@@ -20,6 +20,7 @@
     "build": "babel src -d dest",
     "dev": "webpack --progress --watch"
   },
+  "main": "dest/soxlib.js",
   "files": [
     "dest"
   ],
