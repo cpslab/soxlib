@@ -16,13 +16,15 @@
     "start": "webpack-dev-server --open",
     "prettier": "prettier --write --single-quote --no-semi '**/*.js'",
     "lint": "eslint .",
+    "prepublish": "npm run build",
+    "build": "babel src -d dest",
     "dev": "webpack --progress --watch"
   },
   "files": [
-    "index.js"
+    "dest"
   ],
   "keywords": [
-    ""
+    "sox"
   ],
   "dependencies": {
     "backbone": "^1.3.3",

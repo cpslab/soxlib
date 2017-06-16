@@ -7,15 +7,15 @@ module.exports = {
   entry: ['./examples/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
-  }
+        use: ['babel-loader'],
+      },
+    ],
+  },
 }
