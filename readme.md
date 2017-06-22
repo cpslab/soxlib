@@ -59,10 +59,19 @@ sox.subscribe(node, (info, data) => {
 ### SoxLib(boshService, jid, password)
 
 #### boshService
-#### jid
-#### password
-
 Type: `string`
+
+bosh url.
+
+#### jid
+Type: `string`
+
+your jid.
+
+#### password
+Type: `string`
+
+your password.
 
 ### sox#subscribe()
 
